@@ -1,0 +1,72 @@
+body {
+	background-color: #f2f2f2;
+}
+
+/* header */
+div span {
+	color: aliceblue;
+}
+
+.logo {
+	background-color: transparent; /* Pastikan background transparan */
+	border: none; /* Hilangkan border jika ada */
+}
+
+.navbar .row {
+	align-items: center; /* Vertikal rata tengah */
+}
+
+/* main */
+
+.card {
+	margin: 0 auto; /* Pusatkan card secara horizontal */
+	padding: 1rem; /* Tambahkan padding di dalam card */
+	border-radius: 8px; /* Tambahkan sudut melengkung */
+}
+
+
+
+.img-fluid {
+	height: auto;
+	width: 20rem;
+}
+
+/* main profil */
+#profil {
+	display: none; /* Sembunyikan Profil secara default */
+}
+
+/* footer */
+
+footer {
+	margin-top: 1rem;
+}
+
+.img-fluid {
+	height: 10rem;
+	width: auto;
+}
+
+/* animasi */
+@keyframes animasi {
+	0% {
+		opacity: 0%;
+		transform: translateY(-4rem);
+	}
+
+	100% {
+		opacity: 100%;
+		transform: translateY(0rem) scale(1);
+	}
+}
+@keyframes login {
+            0% {
+                opacity: 0%;
+                transform: translateY(-4rem) scale(0.8);
+            }
+
+            100% {
+                opacity: 100%;
+                transform: translateY(0rem) scale(1);
+            }
+        }
